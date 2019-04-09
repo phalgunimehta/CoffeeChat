@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    padding-top: 3%;
+    background-image: linear-gradient( #ffff, #f6d088, #8e600b);
+}
+
+div{
+    padding-bottom:20px;
+}
+
+@media (min-width:2550px){
+    div{
+        padding: 40px;    
+}
+}
+
+h5{
+    font-family: 'Pinyon Script',cursive;
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 2.0em;
+
+}
+p{
+    font-family: 'Arial';
+    font-size: 1em;
+}
+/* Carousel */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {    
+    margin: auto;
+}
+@media (min-width:2550px){
+.carousel-inner > .item > img{
+    width: 400px;
+}
+}
+/*Subsribe button*/
+#button1{
+    background-color: #0f0a00;
+    color: wheat;
+    border-radius: 20px;
+    padding: 10px;
+    width: 30%;
+    outline: transparent;
+}
+@media (max-width:425px){
+    #button1{
+        font-size: 14px;
+        padding-right: 12px;
+        width: 60%;
+    }
+} 
+@media (min-width:2550px){
+    #button1{
+        width: 16%;
+    }
+}
+
+/* The carousel indicators */
+.carousel-indicators{
+   position: static;
+   margin: auto;
+}
+
+.carousel-indicators li {
+    background-color: #f6d088;    
+}
+
+.carousel-indicators li.active {
+    background-color: #0f0a00;
+}
+
+/*Google Play button*/
+#button2{
+    background-attachment: local;
+    background-image: url(./assets/images/Google-Play.png);
+    height: 50px;
+    width: 174px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+span{
+    font-size: 1.8em;
+    position: relative;
+    left: 25%;
+}
+
+@media (min-width:2000px){
+    #communication{
+        width: 470px;
+    }
+}
+/*Next/Previous page indicator*/
+.next{
+    font-size: 2em;
+    color: #0f0a00;
+    padding: 0;
+    margin-top: -1%;
+}
+
+.next:active{
+    color: #0f0a00;
+    text-decoration: none;
+}
+
+.next:hover{
+    color: #0f0a00;
+    text-decoration: none;
+}
+
+/*Footer*/
+footer{
+    padding: 10px;
+}
+  
+  
